@@ -1,30 +1,41 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 	<head>
-		<h1> CREAR CUENTA NUEVA </h1>
+		<link rel="stylesheet" href="register.css">
 	</head>
 	<body>
-		<form action="/registro" method="post">
-			<label for="text">Nombre completo</label>
-			<input type"nombre"
+
+		<div class="bloqueprincipal">
+			<div class="bloqueform">
+
+		<form action="/registro" 
+			method="post" 
+			class="registerform">
+			<h1> Registrate en Kastcino </h1>
+			<label for="text"><b>Nombre completo</b></label>
+			<input type="nombre"
 			       id="nombre" 
 			       name="nombre" 
 			       required>
-			<label for="edad"> Edad </label> 
+			<label for="edad"> <b>  Edad </b> </label> 
 			<input type="number" 
 			       id="edad" 
 			       name="edad"
-			       min="18" required>
-			<label for="correo">Correo electronico</label>
+			       max="18" required>
+			<label for="correo"> <b>Correo electronico</b></label>
 			<input type="email"
 			       id="correo"
 			       name="correo" required>
-			<label for="contrasena"> Contraseña </label>
+			<label for="contrasena"> <b>Contraseña</b> </label>
 			<input type="password"
 			       id="contrasena"
 			       name="contrasena" required>
-		<button type="submit">Crear Cuenta</button>
+			<button type="submit"><b>Crear Cuenta </b></button>
 		</form>
+		</div>
+
+		<div class="bloqueimagen">
+		</div>
+		</div>
 		</body>
 </html>
-

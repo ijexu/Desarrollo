@@ -1,0 +1,25 @@
+.bloqueprincipal {
+	display: flex;
+	flex-direction: row;
+	min-height: 100vh;
+}
+.bloqueform {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	padding: 40px;
+	background-color: #08612B;
+}
+.registerform{
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	width: 100%;
+	max-width: 350px;
+}
+.bloqueimagen{
+	flex: 2;
+	background-image: url("ImagenesRef/israelregistro.jpg");
+	background-size: cover;
+	background-position: center;
+}

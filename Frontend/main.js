@@ -1,11 +1,12 @@
 document.addEventListener("DOMContentLoaded",()=>{
-	const botonLogin = document.querySelector(".Login");
+	const formulario = document.querySelector(".loginform");
 
-	botonLogin.addEventListener("click", (event) => {
-		event.preventDefault();
-
-		window.location.href = "main.html";
+	if (formulario) {
+		formulario.addEventListener("submit", (event) => {
+			event.preventDefault();
+			window.location.href = "main.html";
 	});
+	}
 });
 
 

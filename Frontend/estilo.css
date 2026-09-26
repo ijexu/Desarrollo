@@ -1,14 +1,14 @@
-
 html, body{
 	height: 100%;
 	margin: 0;
 }
 
 body {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("ImagenesRef/israelruleta.png");
+        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0,0.5 )),url("ImagenesRef/israelruleta.png");
         background-size : cover;
 	background-position : center;
 	background-repeat : no-repeat;
+	padding: 20px 30px;
 
 
 }
@@ -17,10 +17,10 @@ h1{
 
 	text-align: center;
 	background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-	background-clip : text;
 	-webkit-background-clip: text;
 	color : transparent;
-	font-size: 68px;
+        font-size : 77px;
+	padding-right: 95px;
 }
 
 h2{
@@ -28,4 +28,16 @@ h2{
 	color: white;
 	font-size: 48px;
 }
+ h3{
+	 color: gold;
+	 text-align: left;
+	 font-size: 42px;
+	 margin-left: 40px;
+ }
+
+ label {
+	 color: white;
+	 font-size: 20px;
+ }
+	 
 

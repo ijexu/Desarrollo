@@ -1,0 +1,49 @@
+
+
+body{ 
+background-image: url("ImagenesRef/goysino.png");
+	 background-size: cover;
+	  background-position: center;
+	 background-repeat: no-repeat;
+	background-color: #0d1330;
+}
+
+
+
+
+.pagina_principal{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 60px;
+	 flex-wrap: wrap;
+	 min-height: 90vh;
+	}
+
+.juego1,
+.juego2 {
+	display: flex;
+	flex-direction: column;
+ 	  text-align: center;
+	  align-items: center;
+}
+.imagenjuego1 img,
+   .imagenjuego2 img{
+	   width: 280px;
+	   height: 280px;
+	   border-radius: 14px;
+		object-fit: cover;
+	}
+	
+	.botonjuego1,
+	 .botonjuego2{
+		 font-size: 24px;
+		 padding: 15px 50px;
+		 margin-top: 18px;
+
+	       background-color: gold;
+	        color: black;
+		border: none;
+		 border-radius: 8px;
+		  }
+

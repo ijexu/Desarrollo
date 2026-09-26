@@ -1,6 +1,11 @@
-const caja_desplegable = document.getElementById('caja_desplegable');
-const boton_despliegue = document.getElementById('boton_despliegue');
+document.addEventListener("DOMContentLoaded",()=>{
+	const botonLogin = document.querySelector(".Login");
 
-boton_despliegue.addEventListener('click', () => {
-	caja_desplegable.classList.toggle('collapsed');
+	botonLogin.addEventListener("click", (event) => {
+		event.preventDefault();
+
+		window.location.href = "main.html";
+	});
 });
+
+

@@ -41,3 +41,17 @@ h2{
  }
 	 
 
+.loginshape {
+	display: flex;
+	flex-direction: row;
+}
+.loginform {
+	flex: 2;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items:center;
+}
+.indexbloquevacio {
+	flex: 1;
+}
